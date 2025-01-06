@@ -32,7 +32,7 @@ function exibirTextoNaTela(tag, texto) {
 function verificarChute() {
     let chute = document.querySelector('input').value;
     if (chute == numeroSecreto) {
-        exibirTextoNaTela('h1', 'Parabéns, você acertou!');
+        exibirTextoNaTela('h1', 'Parabéns, você acertoouu!');
         let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa';
         let mensagemTentativa = `Isso aí, você descobriu o número secreto com ${tentativas} ${palavraTentativa}!`;
         exibirTextoNaTela('p', mensagemTentativa);
